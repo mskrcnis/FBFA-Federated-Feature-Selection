@@ -92,6 +92,24 @@ This folder contains original Jupyter notebooks and associated datasets used dur
 | `ACI-IoT-2023.csv`    | ACI IoT Intrusion Detection dataset|
 | `wustl_corrected.csv` | Cleaned WUSTL-IIoT dataset         |
 
+These publicly available datasets were used during development and testing:
+
+- **WUSTL-IIoT-2021**  
+  M. Zolanvari, M. A. Teixeira, L. Gupta, K. M. Khan, and R. Jain.  
+  "WUSTL-IIOT-2021 Dataset for IIoT Cybersecurity Research,"  
+  Washington University in St. Louis, USA, October 2021.  
+  [Dataset Link](http://www.cse.wustl.edu/~jain/iiot2/index.html)
+
+- **ACI-IoT-2023**  
+  Nathaniel Bastian, David Bierbrauer, Morgan McKenzie, Emily Nack (2023).  
+  *ACI IoT Network Traffic Dataset 2023*. IEEE Dataport.  
+  [DOI: 10.21227/qacj-3x32](https://dx.doi.org/10.21227/qacj-3x32)
+
+- **Spambase**  
+  Hopkins, M., Reeber, E., Forman, G., & Suermondt, J. (1999).  
+  *Spambase [Dataset]*. UCI Machine Learning Repository.  
+  [DOI: 10.24432/C53G6X](https://doi.org/10.24432/C53G6X)
+
 ---
 
 > These notebooks were essential during the initial experimentation phase. The finalized codebase is modularized under `src/` and controlled via `run_pipeline.py`.
