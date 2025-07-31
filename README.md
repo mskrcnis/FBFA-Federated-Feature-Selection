@@ -22,18 +22,19 @@ It supports client-wise data partitioning and federated learning with feature se
 
 ## 📁 Project Structure
 
+```
 FBFA-Federated-Feature-Selection/
-├── run_pipeline.py # Main execution script
-├── data/ The cleaned Data Files
-├── notebooks/ # Original Raw Notebooks and Data Files
+├── run_pipeline.py         # Main execution script
+├── data/                   # Cleaned data files for training/testing
+├── notebooks/              # Original raw notebooks and datasets used during development
 ├── src/
-│ ├── preprocessing.py # Data loading & preprocessing
-│ ├── partitioning.py # Dirichlet-based data split
-│ ├── model.py # Tabular MLP architecture
-│ ├── train.py # Training, evaluation, and aggregation
-│ ├── fbfa.py # FBFA federated feature selection
-│ └── frhc.py # FRHC-based feature selection
-
+│   ├── preprocessing.py    # Data loading & preprocessing
+│   ├── partitioning.py     # Dirichlet-based data partitioning for clients
+│   ├── model.py            # Tabular MLP architecture
+│   ├── train.py            # Training, evaluation, and federated averaging
+│   ├── fbfa.py             # Federated Binary Firefly Algorithm (FBFA)
+│   └── frhc.py             # Federated Representative Hierarchical Clustering (FRHC)
+```
 
 ---
 
