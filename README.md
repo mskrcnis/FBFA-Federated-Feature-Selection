@@ -51,7 +51,7 @@ Copy
 Edit
 pip install -r requirements.txt
 
-### 3 Run the pipeline
+### 3️⃣ Run the pipeline
 python run_pipeline.py
 
 Follow on-screen prompts to:
