@@ -1,0 +1,32 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Jupyter notebooks checkpoints
+.ipynb_checkpoints/
+
+# Environment files
+.env
+
+# Log files
+*.log
+
+# macOS
+.DS_Store
+
+# CSVs and datasets
+*.csv
+
+# PyTorch checkpoints
+*.pt
+*.pth
+
+# VS Code settings
+.vscode/
+
+# Data & results (optional)
+data/
+results/
+
