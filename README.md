@@ -100,7 +100,7 @@ This folder contains original Jupyter notebooks and associated datasets used dur
 
 📘 Citation
 If you use this work in your research, please cite:
-S. Kumar Reddy Mallidi et al., "Distributed Federated Feature Selection via Adaptive Consensus and Binary Firefly Algorithm for Large-Scale IoT Network Intrusion Detection", 2025.
+S Kumar Reddy Mallidi. (2025). mskrcnis/FBFA-Federated-Feature-Selection: Initial Release (v1.0.0). Zenodo. https://doi.org/10.5281/zenodo.16642484 
 
 📬 Contact
 For questions or collaborations, reach out at: satya.cnis@gmail.com
